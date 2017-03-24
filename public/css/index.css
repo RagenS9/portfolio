@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+
+.nav-dark {
+    background-color: #47474C;
+    color: #ffffff;
+}
+
+.nav-dark a,
+.nav-dark a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+/*linear-gradient(rgba(47,117,179,0.3), rgba(47,117,179,0.75)),*/
+.hero-body {
+    background-image: url("../img/clematis.jpg");
+    background-size: cover;
+    /*background-position: -100px;*/
+}
+
+.title-main {
+    /*font-family: 'Raleway', serif !important;*/
+    color: white;
+    font-family: bree-serif, sans-serif;
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.title-more-space {
+    line-height: 2;
+}
+
+.subtitle {
+    color: white;
+}
+
+.skill {
+    margin-right: 40px;
+}
+
+.skill:last-child {
+    margin-right: 0;
+}
+
+.notification {
+    background-color: #C5B9FB;
+}
