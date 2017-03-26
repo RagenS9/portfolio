@@ -6,7 +6,8 @@ img {
 }
 
 .nav-dark {
-    background-color: #47474C;
+    /*background-color: #47474C;*/
+    background-color: #133D04;
     color: #ffffff;
 }
 
@@ -47,5 +48,6 @@ img {
 }
 
 .notification {
-    background-color: #C5B9FB;
+    /*background-color: #C5B9FB;*/
+    background-color: #133D04;
 }

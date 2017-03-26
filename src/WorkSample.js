@@ -13,7 +13,7 @@ class WorkSample extends Component {
 
     // You can read incoming props, like title="", using this.props.title ...wrapping that in {} will output it to the screen
     render() {
-        return <div className="column is-half" onMouseOver={() => this.setState({style: 'notification'})} onMouseOut={() => this.setState({style: ''})}>
+        return <div className="column is-thirds" onMouseOver={() => this.setState({style: 'notification'})} onMouseOut={() => this.setState({style: ''})}>
             <div className="section">
                 <a href={this.props.link}>{this.props.title}</a><br/>
                 <p className={this.state.style }>
