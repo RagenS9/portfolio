@@ -7,7 +7,8 @@ img {
 
 .nav-dark {
     /*background-color: #47474C;*/
-    background-color: #133D04;
+    /*background-color: #133D04;*/
+    background-color: #121A05;
     color: #ffffff;
 }
 
@@ -18,16 +19,15 @@ img {
 }
 /*linear-gradient(rgba(47,117,179,0.3), rgba(47,117,179,0.75)),*/
 .hero-body {
-    background-image: url("../img/clematis.jpg");
+    background-image: url("../img/ragensanner_clematis.jpg");
     background-size: cover;
-    /*background-position: -100px;*/
 }
 
 .title-main {
     /*font-family: 'Raleway', serif !important;*/
     color: white;
     font-family: bree-serif, sans-serif;
-    font-size: 50px;
+    font-size: 60px;
     margin-top: 0;
 }
 
@@ -43,11 +43,89 @@ img {
     margin-right: 40px;
 }
 
+.title em, .title span, .subtitle em, .subtitle span {
+    font-weight: 500;
+}
+
 .skill:last-child {
     margin-right: 0;
 }
 
 .notification {
     /*background-color: #C5B9FB;*/
-    background-color: #133D04;
+    /*background-color: #133D04;*/
+    background-color: #121A05;
+}
+
+#root {
+    background-color: #47474C;
+    padding-top: 60px; 
+}
+
+.section {
+    background-color: #47474C;
+}
+
+.title {
+    color: white;
+}
+
+a:hover{
+    color: white;
+}
+
+a {
+    color: #9E9E9D; 
+}
+
+h2 {
+    padding-left: 20px; 
+    padding-right: 20px;
+    color: white;
+    font-size: 35px; 
+}
+
+h3 {
+    color: white;
+    font-family: bree-serif, sans-serif;
+    font-size: 25px; 
+}
+
+.quotes {
+    padding: 30px; 
+    background-color: #47474C;
+    color: black;
+}
+
+blockquote {
+    background-color: #C4C2CD;
+    padding: 20px;
+    border-radius: 50px; 
+    text-align: center;
+    font-family: bree-serif, sans-serif;
+}
+
+blockquote a {
+    color:  black;
+}
+
+.newsletter {
+    text-align: center;
+}
+
+.newsletter .img {
+    width: 30px; 
+}
+
+.fa {
+    color: black;
+    font-size: 30px; 
+}
+
+.footer {
+    background-color: #121A05;
+}
+
+.footer .content {
+    color: #9E9E9D;
 }
