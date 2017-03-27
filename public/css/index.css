@@ -70,6 +70,10 @@ img {
     color: white;
 }
 
+.title.is-2 {
+    margin-bottom: 0px;
+}
+
 a:hover{
     color: white;
 }
