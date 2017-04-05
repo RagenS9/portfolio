@@ -15,14 +15,14 @@ class WorkSample extends Component {
     render() {
         return <div className="column sample">
             <div className="section">
-                <a href={this.props.link}>
+                <a href={this.props.link} target="_blank">
                 <h3>{this.props.title}</h3><br/>
                     <p className={this.state.style }>
                     {this.props.description} <br/><br/>
                         <img className="screen" src = {this.props.screenshot} />
                     </p>
                 </a>
-                <a href={this.props.secondlink}>
+                <a href={this.props.secondlink} target="_blank">
                     <p className={this.state.style }>
                     {this.props.seconddescription} <br/>
                     </p>

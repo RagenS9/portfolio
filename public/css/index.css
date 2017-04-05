@@ -1,13 +1,12 @@
 * {
     box-sizing: border-box;
 }
+
 img {
     width: 100%;
 }
 
 .nav-dark {
-    /*background-color: #47474C;*/
-    /*background-color: #133D04;*/
     background-color: #121A05;
     color: #ffffff;
 }
@@ -17,14 +16,13 @@ img {
     text-decoration: none;
     color: #ffffff;
 }
-/*linear-gradient(rgba(47,117,179,0.3), rgba(47,117,179,0.75)),*/
+
 .hero-body {
     background-image: url("../img/ragensanner_clematis.jpg");
     background-size: cover;
 }
 
 .title-main {
-    /*font-family: 'Raleway', serif !important;*/
     color: white;
     font-family: bree-serif, sans-serif;
     font-size: 60px;
@@ -52,8 +50,6 @@ img {
 }
 
 .notification {
-    /*background-color: #C5B9FB;*/
-    /*background-color: #133D04;*/
     background-color: #121A05;
 }
 
@@ -90,9 +86,13 @@ h2 {
 }
 
 h3 {
-    color: white;
+    color: #C4C2CD;
     font-family: bree-serif, sans-serif;
     font-size: 25px; 
+}
+
+.screenshot {
+    box-shadow: 10px 10px;
 }
 
 .quotes {
@@ -131,5 +131,9 @@ blockquote a {
 }
 
 .footer .content {
+    color: #9E9E9D;
+}
+
+.footer i{
     color: #9E9E9D;
 }
