@@ -78,6 +78,14 @@ a {
     color: #9E9E9D; 
 }
 
+.help {
+    color: #9E9E9D; 
+    font-style: italic;
+    padding-left: 40px;
+    padding-top: 10px; 
+    font-size: 15px; 
+}
+
 h2 {
     padding-left: 20px; 
     padding-right: 20px;
