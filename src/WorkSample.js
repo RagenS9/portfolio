@@ -19,7 +19,7 @@ class WorkSample extends Component {
                 <h3>{this.props.title}</h3><br/>
                     <p className={this.state.style }>
                     {this.props.description} <br/><br/>
-                        <img className="screen" src = {this.props.screenshot} />
+                        <img className="screen" src={this.props.screenshot} alt="work sample"/>
                     </p>
                 </a>
                 <a href={this.props.secondlink} target="_blank">
